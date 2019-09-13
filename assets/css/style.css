@@ -1,0 +1,25 @@
+#heading{
+
+font-size: 50px;
+background-color: orange;
+width: 30%;
+height: 60px;
+margin-bottom: 20px;
+}
+
+h1{
+
+font-size: 25px;
+background-color: black;
+color: white;
+width: 20%;
+height: 40px;
+
+}
+
+#face{
+
+float: right;
+margin-right: 300px;
+
+}

@@ -6,21 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <style>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
-    </style>
 </head>
 <body>
-    <header>
-
+ 
+    <header id="heading"><strong>Crystal Collector</strong></header>
+            
     
-    </header>
-    <div id="container">
+            
+        <div class="numberToMatch">
+             <h1>Your target-number: <span id="target-number"></span></h1>
+        </div>
+
+     <img id= "face" src="assets/images/marcface.jpg" alt="backgroundFace">
+
 
     </div>
-
-    <script>
     
-    </script>
+    <div class="crystals">
+        <img id="image1" src="assets/images/crystal1.jpg">
+        <img id="image2" src="assets/images/crystal2.jpg">
+        <img id="image3" src="assets/images/crystal3.jpg">
+        <img id="image4" src="assets/images/crystal4.jpg">
+    </div>
+    
+    <div class="yourScore">
+        <h1>Your Score:
+            <span id="finalTotal"></span>
+        </h1>
+    </div>
+
+
+  
+   <script src="assets/javascript/game.js"></script>
 </body>
 </html>
